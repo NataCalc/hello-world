@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<febio_diagnostic type="tangent test">
+	<Control>
+		<time_steps>10</time_steps>
+		<step_size>0.1</step_size>
+	</Control>
+	<Material>
+		<material id="1" name="Material1" type="Shenoy">
+			<density>1</density>
+			<mu>0.7692</mu>
+			<k>1.667</k>
+			<Ef>134.6></Ef>
+			<lam_c>1.02</lam_c>
+			<lam_t>0.0255</lam_t>
+			<n>5</n>
+			<m>30</m>
+		</material>
+	</Material>
+	<Scenario type="uni-axial">
+		<strain>0.3</strain>
+	</Scenario>
+</febio_diagnostic>
